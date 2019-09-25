@@ -1,8 +1,8 @@
 198.19.10.0,24,DataCenter 02
 198.19.20.0,24,DataCenter 02
 198.19.30.0,24,DataCenter 02
-198.19.18.0,24,Remote VPN
+198.18.1.0,24,Remote VPN
 10.201.3.0,24,User Subnet
 10.201.0.0,24,Data Center 01
 209.182.184.0,24,Data Center 01
-172.16.16.0,24,Core
+172.16.16.0,24,Core Network
