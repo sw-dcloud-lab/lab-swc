@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flowfan>
     <flowfan>
+        <source ip="198.19.20.1" port="2055" netmask="255.255.255.255" />
+        <target ip="198.19.20.143" port="2055" />
+        <configText>UDPD ETA flow to SWC Sensor</configText>
+    </flowfan>
+    <flowfan>
         <source ip="172.16.16.1" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
+        <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
     <flowfan>
@@ -17,7 +22,7 @@
     </flowfan>
     <flowfan>
         <source ip="172.16.16.200" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
+        <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
     <flowfan>
@@ -31,28 +36,23 @@
         <configText>AnyConnect NVM Flows to EC</configText>
     </flowfan>
     <flowfan>
-        <source ip="198.19.20.1" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
-        <configText>UDPD Netflow v9  to SWC Sensor</configText>
-    </flowfan>
-    <flowfan>
         <source ip="198.19.20.135" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
+        <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
     <flowfan>
         <source ip="198.18.128.138" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
+        <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
     <flowfan>
         <source ip="198.19.20.138" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9056" />
+        <target ip="198.19.20.143" port="4739" />
         <configText>UDPD IPFIX to SWC Sensor</configText>
     </flowfan>
     <flowfan>
         <source ip="172.16.16.100" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
+        <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
     <flowfan>
@@ -72,17 +72,17 @@
     </flowfan>
     <flowfan>
         <source ip="198.19.20.142" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9056" />
+        <target ip="198.19.20.143" port="4739" />
         <configText>UDPD IPFIX to SWC Sensor</configText>
     </flowfan>
     <flowfan>
         <source ip="172.16.16.3" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
+        <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
     <flowfan>
         <source ip="172.16.16.50" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9055" />
+        <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
     <startup ports="514,2055,2056" />
