@@ -1,0 +1,16 @@
+#Run this command first to stop the service and switch to super user
+sudo service obsrvbl-ona stop
+
+#Run these command to delete the stale files
+sudo rm -rf /opt/obsrvbl-ona/logs/ipfix/
+sudo mkdir /opt/obsrvbl-ona/logs/ipfix/
+sudo chown obsrvbl_ona: /opt/obsrvbl-ona/logs/ipfix/
+sudo rm -rf /opt/obsrvbl-ona/logs/pna/
+sudo mkdir /opt/obsrvbl-ona/logs/pna/
+
+
+# Run this command for the Geo you are into determing your NAT IP address
+
+curl https://sensor.ext.obsrvbl.com
+curl https://sensor.eu-prod.obsrvbl.com
+curl https://sensor.anz-prod.obsrvbl.com
