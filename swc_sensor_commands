@@ -9,7 +9,7 @@ sudo rm -rf /opt/obsrvbl-ona/logs/pna/
 sudo mkdir /opt/obsrvbl-ona/logs/pna/
 
 
-# Run this command for the Geo you are into determing your NAT IP address
+# Run this command for the Geo you are in to determe your NAT IP address
 
 curl https://sensor.ext.obsrvbl.com
 curl https://sensor.eu-prod.obsrvbl.com
