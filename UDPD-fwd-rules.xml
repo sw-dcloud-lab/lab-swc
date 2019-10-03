@@ -57,7 +57,7 @@
     </flowfan>
     <flowfan>
         <source ip="198.19.10.1" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9057" />
+        <target ip="198.19.20.143" port="9997" />
         <configText>UDPD ASA to SWC Sensor</configText>
     </flowfan>
     <flowfan>
@@ -67,7 +67,7 @@
     </flowfan>
     <flowfan>
         <source ip="172.16.16.2" port="2055" netmask="255.255.255.255" />
-        <target ip="198.19.20.143" port="9057" />
+        <target ip="198.19.20.143" port="9997" />
         <configText>UDPD ASA to SWC Sensor</configText>
     </flowfan>
     <flowfan>
