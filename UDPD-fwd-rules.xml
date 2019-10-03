@@ -85,6 +85,6 @@
         <target ip="198.19.20.143" port="9995" />
         <configText>UDPD Netflow v9  to SWC Sensor</configText>
     </flowfan>
-    <startup ports="514,2055,2056,27299,50063" />
+    <startup ports="514,2055,2056" />
 </flowfan>
 
