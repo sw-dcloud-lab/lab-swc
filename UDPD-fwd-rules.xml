@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flowfan>
     <flowfan>
-        <source ip="198.19.20.1" port="2055" netmask="255.255.255.255" />
+        <source ip="198.19.20.1" port="50063" netmask="255.255.255.255" />
         <target ip="198.19.20.143" port="2055" />
         <configText>UDPD ETA flow to SWC Sensor</configText>
     </flowfan>
