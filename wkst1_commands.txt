@@ -1,0 +1,3 @@
+# Netstat command to see Wkst1 machine connections.
+netstat -bn | findstr /v 127 | findstr /v exe
+
