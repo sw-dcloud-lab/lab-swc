@@ -3,3 +3,6 @@ netstat -bn | findstr /v 127 | findstr /v exe
 
 #TOR Watchlist URL
 https://onstatic.s3.amazonaws.com/oneoff/combined_tor.txt
+
+#Exploit Command
+./install-exploit-kit 
