@@ -8,11 +8,18 @@ sudo chown obsrvbl_ona: /opt/obsrvbl-ona/logs/ipfix/
 sudo rm -rf /opt/obsrvbl-ona/logs/pna/
 sudo mkdir /opt/obsrvbl-ona/logs/pna/
 sudo chown obsrvbl_ona: /opt/obsrvbl-ona/logs/pna/
+
+# Run this command to edit the local config file and add your portal key.
+sudo rm /opt/obsrvbl-ona/config.auto
+sudo nano /opt/obsrvbl-ona/config.local
+
+# This is the string to add to config.local, add it anywher in the file, replace XXX with they key from your portal.
+OBSRVBL_SERVICE_KEY="XXXXXXX"
+
+
+# Once the key has been added, save the file (Ctrl + X) and then start the service again.
 sudo service obsrvbl-ona start
 
 
-# Run this command for the Geo you are in to determe your NAT IP address
 
-curl https://sensor.ext.obsrvbl.com
-curl https://sensor.eu-prod.obsrvbl.com
-curl https://sensor.anz-prod.obsrvbl.com
+
