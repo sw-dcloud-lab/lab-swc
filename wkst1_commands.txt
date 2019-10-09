@@ -1,3 +1,6 @@
+# Dropbox Link for the Word Document
+https://www.dropbox.com/s/kivinjilbehyklh/Cisco%20Stealthwatch%20Cloud%20Lab%20Test%20Drive%20100819.docx?dl=0
+
 # Netstat command to see Wkst1 machine connections.
 netstat -bn | findstr /v 127 | findstr /v exe
 
