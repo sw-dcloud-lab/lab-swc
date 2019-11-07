@@ -13,7 +13,7 @@ sudo chown obsrvbl_ona: /opt/obsrvbl-ona/logs/pna/
 sudo rm /opt/obsrvbl-ona/config.auto
 sudo nano /opt/obsrvbl-ona/config.local
 
-# This is the string to add to config.local, add it anywher in the file, replace XXX with they key from your portal.
+# This is the string to add to config.local, add it at the end of the file, replace XXX with they key from your portal.
 OBSRVBL_SERVICE_KEY="XXXXXXX"
 
 
