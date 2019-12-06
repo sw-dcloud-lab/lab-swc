@@ -10,7 +10,6 @@ sudo mkdir /opt/obsrvbl-ona/logs/pna/
 sudo chown obsrvbl_ona: /opt/obsrvbl-ona/logs/pna/
 
 # Run this command to edit the local config file and add your portal key.
-sudo rm /opt/obsrvbl-ona/config.auto
 sudo nano /opt/obsrvbl-ona/config.local
 
 # This is the string to add to config.local, add it at the end of the file, replace XXX with they key from your portal.
