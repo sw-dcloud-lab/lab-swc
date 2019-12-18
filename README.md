@@ -1,2 +1,2 @@
 
-Stealthwatch SaaS test drive documentation and scripts for use with the Cisco Dcloud Lab
+Stealthwatch SaaS test drive documentation and scripts for use with the Cisco Dcloud Lab.  Good Luck!
